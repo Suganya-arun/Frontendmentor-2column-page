@@ -1,0 +1,147 @@
+
+body {
+
+
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main-container {
+    width: 700px;
+    background-color: hsl(257, 40%, 49%);
+    /* background-repeat: no-repeat; */
+    margin: 7% auto 7% auto;
+}
+
+.logo {
+    display: block;
+    place-content: center;
+}
+
+.mockup {
+    width: 600px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: white;
+}
+
+.container-1 {
+
+    background-image: url("../images/bg-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+
+.container-2 {
+    padding: 10%;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 38;
+    -moz-border-radius: 38;
+    border-radius: 38px;
+    /* font-family: ; */
+    color: hsl(257, 40%, 49%);
+    font-size: 30px;
+    background: #ffffff;
+    padding: 20px 100px 20px 100px;
+    text-decoration: none;
+    margin-bottom: 70px;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background: hsl(300, 69%, 71%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa-brands {
+    font-size: 25px;
+    padding: 2%;
+    margin-right: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.fa-brands:hover
+{
+    border-color:hsl(300, 69%, 71%) ;
+    color:hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+@media screen and (min-width:600px) {
+    .main-container {
+        display: flex;
+        width: 1440px;
+        background-color: hsl(257, 40%, 49%);
+        /* background-repeat: no-repeat; */
+        margin: 7% auto 7% auto;
+        background-image: url("../images/bg-desktop.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container-1
+     {
+        padding: 1%;
+    }
+
+    .mockup {
+        width: 720px;
+        /* margin-top:100px; */
+    }
+
+    .container-2 {
+        text-align: left;
+    padding:12% 4% 0 4%;
+    margin:0;
+        /* margin-bottom: */
+    }
+
+    .fa-brands {
+      place-content: right;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 0%;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 10px 50px 10px 50px;
+    }
+
+    .fa-brands {
+        font-size: 16px;
+    }
+    .social
+    {
+        text-align: right;
+        padding:100px 0 0 0;
+    }
+}
